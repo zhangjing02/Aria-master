@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    >
+
+  <data>
+    <variable
+        name="fileSize"
+        type="String"
+        />
+    <variable
+        name="speed"
+        type="String"
+        />
+    <variable
+        name="progress"
+        type="int"
+        />
+  </data>
+
+  <android.support.design.widget.CoordinatorLayout
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:fitsSystemWindows="true"
+      tools:context="com.arialyy.simple.download.SingleTaskActivity"
+      >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+      <include layout="@layout/layout_bar"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        layout="@layout/content_single"
+        bind:fileSize="@{fileSize}"
+        bind:progress="@{progress}"
+        bind:speed="@{speed}"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_dialog_email"
+        />
+
+  </android.support.design.widget.CoordinatorLayout>
+</layout>

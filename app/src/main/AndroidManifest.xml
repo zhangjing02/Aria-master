@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.arialyy.simple">
+
+  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+  <application
+      android:name=".base.BaseApplication"
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme.NoActionBar">
+    <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+
+    <activity android:name=".download.DownloadActivity"/>
+    <activity android:name=".download.SingleTaskActivity"/>
+    <activity android:name=".download.multi_download.MultiTaskActivity"/>
+    <activity android:name=".download.fragment_download.FragmentActivity"/>
+    <activity android:name=".download.multi_download.MultiDownloadActivity"/>
+    <activity android:name=".download.HighestPriorityActivity"/>
+    <activity android:name=".test.TestMutilTaskSysDownload"/>
+    <activity android:name=".download.group.DownloadGroupActivity"/>
+    <activity android:name=".download.FtpDownloadActivity"/>
+    <activity android:name=".download.group.FTPDirDownloadActivity"/>
+    <activity android:name=".upload.HttpUploadActivity"/>
+    <activity android:name=".upload.FtpUploadActivity"/>
+
+    <service android:name=".download.service_download.DownloadService"/>
+  </application>
+
+</manifest>

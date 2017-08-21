@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      >
+
+    <include layout="@layout/layout_bar"/>
+
+    <Button
+        android:id="@+id/download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http 下载"
+        style="?buttonBarButtonStyle"
+        />
+
+    <Button
+        android:id="@+id/upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http 上传"
+        style="?buttonBarButtonStyle"
+        />
+
+    <Button
+        android:id="@+id/download_task_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="http 下载任务组"
+        style="?buttonBarButtonStyle"
+        />
+
+    <Button
+        android:id="@+id/ftp_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FTP 下载"
+        style="?buttonBarButtonStyle"
+        />
+
+    <Button
+        android:id="@+id/ftp_dir_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FTP 文件夹下载"
+        style="?buttonBarButtonStyle"
+        />
+
+    <Button
+        android:id="@+id/ftp_upload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FTP 文件上传"
+        style="?buttonBarButtonStyle"
+        />
+
+  </LinearLayout>
+</layout>

@@ -1,0 +1,45 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+  repositories {
+    jcenter()
+    mavenCentral()
+  }
+  dependencies {
+//    classpath 'com.android.tools.build:gradle:2.3.0'
+    classpath 'com.android.tools.build:gradle:2.3.1'
+    classpath 'com.novoda:bintray-release:0.5.0'
+    //        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7'
+    //        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+    // NOTE: Do not place your application dependencies here; they belong
+    // in the individual module build.gradle files
+  }
+}
+
+allprojects {
+  repositories {
+    jcenter()
+    mavenCentral()
+  }
+
+  tasks.withType(Javadoc) {
+    options {
+      encoding "UTF-8"
+      charSet 'UTF-8'
+      links "http://docs.oracle.com/javase/7/docs/api"
+    }
+  }
+}
+
+task clean(type: Delete) {
+  delete rootProject.buildDir
+}
+
+ext {
+  userOrg = 'arialyy'
+  groupId = 'com.arialyy.aria'
+  publishVersion = '3.2.15'
+  repoName='maven'
+  desc = 'android 下载框架'
+  website = 'https://github.com/AriaLyy/Aria'
+  licences = ['Apache-2.0']
+}

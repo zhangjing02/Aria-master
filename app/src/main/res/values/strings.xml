@@ -1,0 +1,65 @@
+<resources>
+  <string name="app_name">Aria</string>
+  <string name="action_settings">Settings</string>
+
+  <string-array name="test_apk_download_url">
+    <item>http://static.gaoshouyou.com/d/22/94/822260b849944492caadd2983f9bb624.apk</item>  <!--300M的文件-->
+    <item>http://static.gaoshouyou.com/d/21/e8/61218d78d0e8b79df68dbc18dd484c97.apk</item>
+    <item>http://static.gaoshouyou.com/d/12/0d/7f120f50c80d2e7b8c4ba24ece4f9cdd.apk</item>
+    <item>http://static.gaoshouyou.com/d/d4/4f/d6d48db3794fb9ecf47e83c346570881.apk</item>
+    <!--<item>http://static.gaoshouyou.com/d/18/cf/ba18113bc6cf56c1c5863e761e717003.apk</item>-->
+    <!--<item>http://static.gaoshouyou.com/d/60/17/2460921367173ea7145f11194a6f2587.apk</item>-->
+    <!--<item>http://static.gaoshouyou.com/d/32/e0/1a32123ecbe0ee010d35479df248f90f.apk</item>-->
+    <!--<item>http://static.gaoshouyou.com/d/22/94/822260b849944492caadd2983f9bb624.apk</item>-->
+    <!--<item>http://static.gaoshouyou.com/d/e6/f5/4de6329f9cf5dc3a1d1e6bbcca0d003c.apk</item>-->
+    <!--<item>http://static.gaoshouyou.com/d/6e/e5/ff6ecaaf45e532e6d07747af82357472.apk</item>-->
+    <!--<item>http://static.gaoshouyou.com/d/36/69/2d3699acfa69e9632262442c46516ad8.apk</item>-->
+  </string-array>
+
+  <string-array name="file_nams">
+    <item>阴阳师</item>
+    <item>奇迹暖暖</item>
+    <item>幻影纹章</item>
+    <item>史上最坑爹的游戏10</item>
+    <item>鲜果消消乐</item>
+    <item>航海奇迹</item>
+
+  </string-array>
+  <string-array name="download_url">
+    <item>https://g37.gdl.netease.com/onmyoji_netease_10_1.0.20.apk</item>
+    <item>http://static.gaoshouyou.com/d/eb/f2/dfeba30541f209ab8a50d847fc1661ce.apk</item>
+    <item>http://rs.0.gaoshouyou.com/d/51/46/58514d126c46b8a3f27fc8c7db3b09ec.apk</item>
+    <item>http://rs.0.gaoshouyou.com/d/23/69/07238f952669727878d7a0e180534c8b.apk</item>
+    <item>http://rs.0.gaoshouyou.com/d/e7/3d/73e716d3353de5b479fcf7da8d36a5ef.apk</item>
+    <item>http://static.gaoshouyou.com/d/22/94/822260b849944492caadd2983f9bb624.apk</item>
+  </string-array>
+
+  <string-array name="highest_names">
+    <item>豪门足球风云</item>
+    <item>碧蓝航线</item>
+    <item>天龙八部手游</item>
+  </string-array>
+
+  <string-array name="highest_urls">
+    <item>https://res5.d.cn/6f78ee3bcfdd033e0193c05c74acd280a32d5c1d8da7a68963da81a1403751e88e8f115ea475566c54456b74d82098c836577f54711a35bbb149e0bd88dc15c48845327fae8652cc.apk</item>
+    <item>https://res5.d.cn/6f78ee3bcfdd033e1861859eaef45235b089f60f2e08c0e0e4fc8959d94de1e358a5149b4bec8519eabc62a53eebea280a05ef2d902d3153ae1dec4cb07b505e90a9f50af7dd14c4.apk</item>
+    <item>https://res5.d.cn/6f78ee3bcfdd033ef8e38596afb298d87de07e5f0f1f91f22acd57750f8ae68270531e2b266ea41c86cd196da839a0afef1952dde89773c7e26b9019249503174ca0513fa0a36a6472c4202bbf94da382964a0478471b753ebd95b67aac7ad89.apk</item>
+  </string-array>
+
+  <string-array name="group_urls">
+    <!--<item>https://res5.d.cn/5a6a3384c1b2be1a65d84b914e6a6fef697637578b6db2eb1056d50b09cf1dcf289d4045df7ef95746e498e3d6a848ab84c89b77aa60194e2c48e5a7cb748265.apk</item>-->
+    <!--<item>https://res5.d.cn/5a6a3384c1b2be1a52034c72752e8475414630ebc69318b84ef584115ebf5eaaab945ae07b7fe3596afc72a7940ff328d4a9553f6ae92d6c09ba4bfb533137f6.apk</item>-->
+    <!--<item>https://res5.d.cn/5a6a3384c1b2be1a426f06bfc69034d69c44ae1a01da180cab8e59bd1a5e1a784bac46ba0c64579d14f0e80a4ce4f068af89b0369a393456f4f449a8829cad5c.apk</item>-->
+
+    <item>http://static.gaoshouyou.com/d/12/0d/7f120f50c80d2e7b8c4ba24ece4f9cdd.apk</item>
+    <item>http://static.ilongyuan.cn/rayark/RayarkFZ_2.0.7.apk</item>
+
+  </string-array>
+
+  <string-array name="group_names">
+    <item>王者荣耀.apk</item>
+    <item>战斗吧剑灵.apk</item>
+    <!--<item>天魔幻想.apk</item>-->
+  </string-array>
+
+</resources>
